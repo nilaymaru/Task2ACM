@@ -11,7 +11,9 @@ class Home extends StatelessWidget {
               child: Column(
                 children: [TextButton(onPressed: (){}, child: Image.asset('assets/1.1.jpg')),
                   TextButton(onPressed: (){}, child: Image.asset('assets/1.2.jpg')),
-                  Image.asset('assets/2.jpg'), Image.asset('assets/3.jpg')],
+                  TextButton(onPressed: (){}, child: Image.asset('assets/2.2.jpg')),
+                  TextButton(onPressed: (){}, child: Image.asset('assets/2.2.jpg'))
+                ],
               ),
             );
           },
