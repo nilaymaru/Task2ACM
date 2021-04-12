@@ -11,11 +11,10 @@ class Explore extends StatelessWidget {
             return SingleChildScrollView(
               child: Column(
                 children: [
-                  Image.asset('assets/a.jpg'),
                   TextButton(onPressed: (){}, child: Image.asset('assets/1.1.jpg')),
                   TextButton(onPressed: (){}, child: Image.asset('assets/1.2.jpg')),
-                  Image.asset('assets/2.jpg'),
-                  Image.asset('assets/3.jpg'),
+                  TextButton(onPressed: (){}, child: Image.asset('assets/2.2.jpg')),
+                  TextButton(onPressed: (){}, child: Image.asset('assets/2.2.jpg'))
                 ],
               ),
             );
